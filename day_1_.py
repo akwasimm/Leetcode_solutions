@@ -52,7 +52,7 @@ class Solution(object):
 4. if all the elements are traversed then we return the i+1
 5. your question is solved
 """
-
+# EXAMPLE
 b=Solution()
 b.removeDuplicates([1,1,2])
 
@@ -66,7 +66,7 @@ class Solution(object):
                 nums[k] = nums[i]
                 k += 1
         return k
-
+# EXAMPLE
 c =Solution()
 c.removeElement([3,2,2,3],3)
 
